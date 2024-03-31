@@ -1,0 +1,60 @@
+.agenda_telefonica {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f4f4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  font-size: 36px;
+  color: #12969b;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.contact-details-wrapper {
+  padding: 20px;
+}
+
+.detail-text {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.name-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #12969b;
+}
+
+
+
+
